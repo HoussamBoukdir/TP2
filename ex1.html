@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <table border="1">
+     <tr>
+        <td colspan="1" width="30%">Nom</td>
+        <td colspan="1" width="70%"></td>
+     </tr>
+     <tr>
+        <td>prenom</td>
+        <td></td>
+     </tr>
+     <tr>
+        <td>sexe</td>
+        <td></td>
+     </tr>
+     <tr>
+        <td>date de naissance</td>
+        <td></td>
+     </tr>
+     <tr>
+        <td>niveau d etude</td>
+        <td></td>
+     </tr>
+     <tr>
+        <td>specialite</td>
+        <td></td>
+     </tr>
+     <tr>
+        <td>specialite</td>
+        <td></td>
+     </tr>
+     <tr>
+        <td>telephone</td>
+        <td></td>
+     </tr>
+   </table>
+
+   <br><br><br><br><br>
+
+   <table border="1">
+    <thead>
+        <th>nom</th>
+        <th>prenom</th>
+        <th>numero</th>
+        <th>note</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>HOUSSAM</td>
+            <td>BOUKDIR</td>
+            <td>0632477777</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>RIYAD </td>
+            <td>KHOMSI</td>
+            <td>0663638485</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>ZIN</td>
+            <td>EL ABIDINE</td>
+            <td>066553628</td>
+            <td>18</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <th colspan="3">LA MOYENNE DU CLASSE</th>
+        <th>32</th>
+    </tfoot>
+ </table>
+ <br><br><br><br><br>
+ <form action="+">
+    <fieldset>
+        <label for="nom">nom</label>
+        <input type="text" id="nom" name="nom">
+        <br>
+        <label for="prenom">prenom</label>
+        <input type="text" id="prenom" name="prenom">
+        <br>
+        <label for="ville">ville</label>
+        <input type="text" id="ville" name="ville" placeholder="taza">
+        <br>
+        <label for="telephone">telephone</label>
+        <input type="text" id="telephone" pattern="06[0-9]{8}" name="telephone">
+        <br>
+        <label for="email">email</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="image">image</label>
+        <input type="file" required id="image" name="image">
+        <br>
+        <label for="radio">Genre</label>
+        F <input type="radio" id="genre" name="genre">
+        M <input type="radio" id="genre" name="genre">
+        <br>
+        <label for="date">date de naissance</label>
+        <input type="date" id="date de naissance" name="date de naissance">
+        <br>
+        <label for="date">pourquoi ofppt ??</label>
+        <textarea name="date" id="date"></textarea>
+        <br>
+        <label for="Site">site web personel</label>
+        <input type="url" id="site" name="site">
+        <br>
+        <label for="etude">niveau d etude</label>
+        <select name="etude" id="etude">
+        <option value="college">college</option>
+        <option value="lycee">lycee</option>
+        <option value="primaire">primaire</option>
+        </select>
+         <br>
+    <input type="submit" value="envoyer">
+    <input type="reset">
+    </fieldset>
+ </form>
+</html>
